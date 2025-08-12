@@ -1,6 +1,6 @@
 export default {
   async fetch(request) {
-    return new Response("Hello World!", {
+    return new Response("BN Minimal!", {
       headers: { "content-type": "text/plain" },
     });
   },
