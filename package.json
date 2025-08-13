@@ -1,0 +1,11 @@
+{
+  "name": "bn-proxy",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy --config wrangler.toml"
+  },
+  "devDependencies": {
+    "wrangler": "3.80.3"
+  }
+}
