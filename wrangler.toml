@@ -1,3 +1,3 @@
-name = "bn-minimal"
-main = "index.js
-compatibility_date = "2025-08-12"
+name = "bn-minimal"        # måste vara unikt i ditt konto – byt om det krockar
+main = "index.js"
+compatibility_date = "2024-08-12"   # dagens datum funkar fint
