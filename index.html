@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Blush Narratives – Minimal</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Blush Narratives</div>
+    <nav class="tabs">
+      <a class="tab active" href="#">Hem</a>
+      <a class="tab" href="#">Favoriter</a>
+      <a class="tab" href="#">Profil</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h1>Välkommen till <span class="accent">Blush Narratives</span></h1>
+      <p>Välj nivå och spela upp en berättelse.</p>
+      <div class="levels">
+        <button class="chip selected" data-level="1">1</button>
+        <button class="chip" data-level="3">3</button>
+        <button class="chip" data-level="5">5</button>
+      </div>
+      <div class="actions">
+        <button id="btn-intro" class="btn primary">Spela introduktion</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Skapa egen berättelse</h2>
+      <p>Skriv en idé så läser vi upp ett smakprov.</p>
+      <label for="idea" class="sr-only">Din idé</label>
+      <textarea id="idea" placeholder="Skriv din idé..."></textarea>
+      <div class="actions">
+        <button id="btn-generate" class="btn">Skapa smakprov</button>
+        <button id="btn-ping" class="btn ghost">Testa backend (ping)</button>
+      </div>
+      <pre id="output" class="output" aria-live="polite"></pre>
+    </section>
+
+    <footer class="footer">BN Minimal • frontend + Pages Functions</footer>
+  </main>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
