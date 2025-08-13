@@ -1,5 +1,7 @@
 export default {
-  async fetch() {
-    return new Response("Hello from BN proxy!", { status: 200 });
-  }
+  async fetch(req) {
+    return new Response("Hello World från BN Minimal!", {
+      headers: { "content-type": "text/plain" },
+    });
+  },
 };
