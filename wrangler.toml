@@ -1,3 +1,12 @@
-name = "bn-minimal"        # måste vara unikt i ditt konto – byt om det krockar
-main = "index.js"
-compatibility_date = "2024-08-12"   # dagens datum funkar fint
+{
+  "name": "bn-minimal",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^3.73.0"
+  }
+}
